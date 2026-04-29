@@ -1,3 +1,9 @@
-export default function Missoes() {
-  return <div>Missões - em desenvolvimento</div>
+import React from 'react'
+
+const Missoes = () => {
+  return (
+    <div>Missoes</div>
+  )
 }
+
+export default Missoes
