@@ -1,16 +1,46 @@
-# React + Vite
+# CarePlus Go — Jornada Gamificada do Cuidado Contínuo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para o **Challenge Care Plus** — 2º semestre de Engenharia de Software — FIAP
+Sprint 2 & 3 · Disciplina: Web Development
 
-Currently, two official plugins are available:
+## Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplicação web mobile-first que transforma o cuidado com a saúde em uma experiência gamificada. Beneficiários completam missões diárias, acumulam pontos e trocam por recompensas reais como consultas gratuitas e descontos no plano.
 
-## React Compiler
+Migrado do protótipo HTML/CSS/Bootstrap (Sprint 2) para React + Vite com roteamento, persistência de dados e componentes reutilizáveis.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Integrantes
 
-## Expanding the ESLint configuration
+| Nome | RM |
+|------|----|
+| Nicolas Forcione de Oliveira e Souza | RM566998|
+| Enrico Dellatorre da Fonseca | RM566824 |
+| Alexandre Constantino Furtado Junior | RM567188 |
+| Leonardo Batista de Souza | RM568558 |
+| Matheus Freitas dos Santos | RM56737 |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como Rodar
+
+```bash
+npm install
+npm run dev
+```
+Acesse em: http://localhost:5173
+
+## Tecnologias
+
+- React 18 + Vite 5
+- React Router DOM v6
+- CSS Custom Properties (Design System)
+- localStorage para persistência de dados
+
+## Estrutura
+
+```
+src/
+├── components/   BottomNav, MissionCard, ConquestModal
+├── data/         appData.json
+├── hooks/        useLocalStorage.js
+├── pages/        Splash, Onboarding, Lgpd, HealthConnect, Home, Missoes, Carteira, Perfil
+└── styles/       global.css
+```
