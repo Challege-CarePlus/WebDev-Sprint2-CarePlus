@@ -1,0 +1,33 @@
+{
+  "missions": [
+    { "id": 1, "icon": "🚶", "title": "Caminhar 30 minutos",    "desc": "Dê uma caminhada de pelo menos 30 min",       "points": 150, "status": "pending",  "progress": 0,   "category": "atividade" },
+    { "id": 2, "icon": "💧", "title": "Beber 2L de água",       "desc": "Mantenha-se hidratado durante o dia",          "points": 80,  "status": "progress", "progress": 60,  "category": "saude" },
+    { "id": 3, "icon": "😴", "title": "Dormir 8 horas",         "desc": "Tenha uma boa noite de sono",                  "points": 120, "status": "done",     "progress": 100, "category": "sono" },
+    { "id": 4, "icon": "🥗", "title": "Comer salada no almoço", "desc": "Inclua vegetais na sua refeição",              "points": 100, "status": "pending",  "progress": 0,   "category": "nutricao" },
+    { "id": 5, "icon": "🧘", "title": "Meditar 10 minutos",     "desc": "Pratique mindfulness para reduzir o estresse", "points": 90,  "status": "pending",  "progress": 0,   "category": "mental" }
+  ],
+  "rewards": [
+    { "id": 1, "icon": "🎟️", "title": "Consulta gratuita",      "points": 500,  "color": "green",  "locked": false },
+    { "id": 2, "icon": "🧴", "title": "Kit saúde",               "points": 800,  "color": "blue",   "locked": false },
+    { "id": 3, "icon": "🏋️", "title": "Mês na academia",        "points": 1200, "color": "purple", "locked": false },
+    { "id": 4, "icon": "🩺", "title": "Check-up completo",       "points": 2000, "color": "teal",   "locked": true  },
+    { "id": 5, "icon": "🎁", "title": "Cesta benefícios",        "points": 3000, "color": "yellow", "locked": true  }
+  ],
+  "badges": [
+    { "id": 1, "name": "Primeiro passo",  "icon": "🏃", "color": "#d0f0e5", "earned": true  },
+    { "id": 2, "name": "Hidratado",       "icon": "💧", "color": "#E3F2FD", "earned": true  },
+    { "id": 3, "name": "Dorminhoco",      "icon": "😴", "color": "#EDE7F6", "earned": true  },
+    { "id": 4, "name": "Meditador",       "icon": "🧘", "color": "#FFF3E0", "earned": false },
+    { "id": 5, "name": "Nutricionista",   "icon": "🥗", "color": "#E8F5E9", "earned": false },
+    { "id": 6, "name": "Semana perfeita", "icon": "🏆", "color": "#FFF8E1", "earned": false },
+    { "id": 7, "name": "Atleta",          "icon": "⚡", "color": "#FCE4EC", "earned": false },
+    { "id": 8, "name": "Lenda",           "icon": "🌟", "color": "#F3E5F5", "earned": false }
+  ],
+  "transactions": [
+    { "id": 1, "title": "Missão concluída: Caminhada",   "date": "Hoje, 08:32",      "amount": 150,  "type": "earn" },
+    { "id": 2, "title": "Resgate: Kit saúde",            "date": "Ontem, 14:10",     "amount": -800, "type": "spend" },
+    { "id": 3, "title": "Missão concluída: Dormir 8h",   "date": "Ontem, 07:00",     "amount": 120,  "type": "earn" },
+    { "id": 4, "title": "Bônus semanal",                 "date": "25 abr, 09:00",    "amount": 200,  "type": "earn" },
+    { "id": 5, "title": "Missão concluída: Meditação",   "date": "24 abr, 20:15",    "amount": 90,   "type": "earn" }
+  ]
+}
