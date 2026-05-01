@@ -1,7 +1,7 @@
 # CarePlus Go — Jornada Gamificada do Cuidado Contínuo
 
 Projeto desenvolvido para o **Challenge Care Plus** — 2º semestre de Engenharia de Software — FIAP
-Sprint 2 & 3 · Disciplina: Web Development
+Sprint 2 & 3 · Disciplina: Web Development e FrontEnd
 
 ## Sobre
 
@@ -33,6 +33,9 @@ Acesse em: http://localhost:5173
 - React Router DOM v6
 - CSS Custom Properties (Design System)
 - localStorage para persistência de dados
+
+## Base utilizada para construção
+acesso em: https://www.figma.com/make/qQevuUop2zeA72paLT4d5O/Challenge-Care-Plus?t=T5qHqsAHJrxb9Yio-1
 
 ## Estrutura
 
